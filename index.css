@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+section{
+    margin-bottom: 50px;
+    margin-top: 0%;
+}
+
+
+.borda-tabela {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.jogo-header {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 150px;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bingo-row {
+    display: flex;
+    justify-content: center;
+}
+
+.sorteado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    color: blue;
+    background-color: pink;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#bingo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+
+#sorteados {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+}
+
+.container {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-6{
+    margin-right: 65px;
+}
+
+footer{
+    position:relative;
+    bottom: 0px;
+    height: 30px;
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}

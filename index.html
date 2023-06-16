@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+   <link rel="stylesheet" href="index.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section>
+    <div class="container">
+        <div class="jumbotron jogo-header">
+            <h1 class="display-4 centro">BINGO</h1>
+            <h2 id="vencedor"></h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+
+                <h1 class="centro">BINGO</h1>
+
+                <div class="centro">
+
+                    <button id="botaoGerarCartela" class="btn btn-primary" onclick="gerarCartelaHTML()">Criar cartela</button>
+
+                    <button id="reset" style="margin-left: 10px;" class="btn btn-secondary" onclick="reiniciarJogo()">Reiniciar Jogo</button>
+                </div>
+
+                <div class="row border border-primary border-4 bingo-row" id="bingo"></div>
+
+            </div>
+            <div class="col-6">
+
+                <h1 class="centro">Área do Jogo</h1>
+
+                <div class="centro" style="margin-bottom: 20px;">
+
+                    <button id="botaoJogar" class="btn btn-danger" onclick="jogarBingo()">Jogar</button>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="row" id="sorteados"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+        <footer>
+            <h4>Desenvolvido por @Richard Madson</h4>
+        </footer>       
+    <script src="index.js"></script>
+</body>
+</html>
